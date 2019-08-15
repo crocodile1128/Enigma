@@ -1,0 +1,30 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Enigma - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\CROCOD~1\AppData\Local\Temp\RSP7A69.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Enigma.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\Crocodile\OneDrive\Cryptography\CipherMachine\Enigma\EnigmaDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\CROCOD~1\AppData\Local\Temp\RSP7A69.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Enigma.pdb" /debug /machine:I386 /out:"Debug/Enigma.exe" /pdbtype:sept  .\Debug\Enigma.obj .\Debug\EnigmaDlg.obj .\Debug\StdAfx.obj .\Debug\Enigma.res "
+<h3>Output Window</h3>
+Compiling...
+EnigmaDlg.cpp
+C:\Users\Crocodile\OneDrive\Cryptography\CipherMachine\Enigma\EnigmaDlg.cpp(292) : warning C4018: '<' : signed/unsigned mismatch
+C:\Users\Crocodile\OneDrive\Cryptography\CipherMachine\Enigma\EnigmaDlg.cpp(336) : warning C4101: 'x' : unreferenced local variable
+C:\Users\Crocodile\OneDrive\Cryptography\CipherMachine\Enigma\EnigmaDlg.cpp(455) : warning C4018: '<' : signed/unsigned mismatch
+Linking...
+
+
+
+<h3>Results</h3>
+Enigma.exe - 0 error(s), 3 warning(s)
+</pre>
+</body>
+</html>

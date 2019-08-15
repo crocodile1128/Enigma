@@ -1,0 +1,453 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\Enigma.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\Enigma.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About Enigma"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "Enigma Version 1.0",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2019",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_ENIGMA_DIALOG DIALOGEX 0, 0, 447, 420
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Enigma"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Tab1",IDC_TAB1,"SysTabControl32",0x0,7,7,433,13
+    PUSHBUTTON      "A",IDC_BUTTON_A,60,303,20,25
+    PUSHBUTTON      "B",IDC_BUTTON_B,230,338,20,25
+    PUSHBUTTON      "C",IDC_BUTTON_C,150,338,20,25
+    PUSHBUTTON      "D",IDC_BUTTON_D,140,303,20,25
+    PUSHBUTTON      "E",IDC_BUTTON_E,120,268,20,25
+    PUSHBUTTON      "F",IDC_BUTTON_F,180,303,20,25
+    PUSHBUTTON      "G",IDC_BUTTON_G,220,303,20,25
+    PUSHBUTTON      "H",IDC_BUTTON_H,260,303,20,25
+    PUSHBUTTON      "I",IDC_BUTTON_I,320,268,20,25
+    PUSHBUTTON      "J",IDC_BUTTON_J,300,303,20,25
+    PUSHBUTTON      "K",IDC_BUTTON_K,340,303,20,25
+    PUSHBUTTON      "L",IDC_BUTTON_L,350,338,20,25
+    PUSHBUTTON      "M",IDC_BUTTON_M,310,338,20,25
+    PUSHBUTTON      "N",IDC_BUTTON_N,270,338,20,25
+    PUSHBUTTON      "O",IDC_BUTTON_O,360,268,20,25
+    PUSHBUTTON      "P",IDC_BUTTON_P,30,338,20,25
+    PUSHBUTTON      "Q",IDC_BUTTON_Q,40,268,20,25
+    PUSHBUTTON      "R",IDC_BUTTON_R,160,268,20,25
+    PUSHBUTTON      "S",IDC_BUTTON_S,100,303,20,25
+    PUSHBUTTON      "T",IDC_BUTTON_T,200,268,20,25
+    PUSHBUTTON      "U",IDC_BUTTON_U,280,268,20,25
+    PUSHBUTTON      "V",IDC_BUTTON_V,190,338,20,25
+    PUSHBUTTON      "W",IDC_BUTTON_W,80,268,20,25
+    PUSHBUTTON      "X",IDC_BUTTON_X,110,338,20,25
+    PUSHBUTTON      "Y",IDC_BUTTON_Y,70,338,20,25
+    PUSHBUTTON      "Z",IDC_BUTTON_Z,240,268,20,25
+    CONTROL         129,IDC_STATIC_A,"Static",SS_BITMAP | SS_CENTERIMAGE,60,
+                    198,20,25
+    CONTROL         130,IDC_STATIC_B,"Static",SS_BITMAP | SS_CENTERIMAGE,230,
+                    233,20,25
+    CONTROL         131,IDC_STATIC_C,"Static",SS_BITMAP | SS_CENTERIMAGE,150,
+                    233,20,25
+    CONTROL         132,IDC_STATIC_D,"Static",SS_BITMAP | SS_CENTERIMAGE,140,
+                    198,20,25
+    CONTROL         133,IDC_STATIC_E,"Static",SS_BITMAP | SS_CENTERIMAGE,120,
+                    163,20,25
+    CONTROL         134,IDC_STATIC_F,"Static",SS_BITMAP | SS_CENTERIMAGE,180,
+                    198,20,25
+    CONTROL         135,IDC_STATIC_G,"Static",SS_BITMAP | SS_CENTERIMAGE,220,
+                    198,20,25
+    CONTROL         136,IDC_STATIC_H,"Static",SS_BITMAP | SS_CENTERIMAGE,260,
+                    198,20,25
+    CONTROL         137,IDC_STATIC_I,"Static",SS_BITMAP | SS_CENTERIMAGE,320,
+                    163,20,25
+    CONTROL         138,IDC_STATIC_J,"Static",SS_BITMAP | SS_CENTERIMAGE,300,
+                    198,20,25
+    CONTROL         139,IDC_STATIC_K,"Static",SS_BITMAP | SS_CENTERIMAGE,340,
+                    198,20,25
+    CONTROL         140,IDC_STATIC_L,"Static",SS_BITMAP | SS_CENTERIMAGE,350,
+                    233,20,25
+    CONTROL         141,IDC_STATIC_M,"Static",SS_BITMAP | SS_CENTERIMAGE,310,
+                    233,20,25
+    CONTROL         142,IDC_STATIC_N,"Static",SS_BITMAP | SS_CENTERIMAGE,270,
+                    233,20,25
+    CONTROL         143,IDC_STATIC_O,"Static",SS_BITMAP | SS_CENTERIMAGE,360,
+                    163,20,25
+    CONTROL         144,IDC_STATIC_P,"Static",SS_BITMAP | SS_CENTERIMAGE,30,
+                    233,20,25
+    CONTROL         145,IDC_STATIC_Q,"Static",SS_BITMAP | SS_CENTERIMAGE,40,
+                    163,20,25
+    CONTROL         146,IDC_STATIC_R,"Static",SS_BITMAP | SS_CENTERIMAGE,160,
+                    163,20,25
+    CONTROL         147,IDC_STATIC_S,"Static",SS_BITMAP | SS_CENTERIMAGE,100,
+                    198,20,25
+    CONTROL         148,IDC_STATIC_T,"Static",SS_BITMAP | SS_CENTERIMAGE,200,
+                    163,20,25
+    CONTROL         149,IDC_STATIC_U,"Static",SS_BITMAP | SS_CENTERIMAGE,280,
+                    163,20,25
+    CONTROL         150,IDC_STATIC_V,"Static",SS_BITMAP | SS_CENTERIMAGE,190,
+                    233,20,25
+    CONTROL         151,IDC_STATIC_W,"Static",SS_BITMAP | SS_CENTERIMAGE,80,
+                    163,20,25
+    CONTROL         152,IDC_STATIC_X,"Static",SS_BITMAP | SS_CENTERIMAGE,110,
+                    233,20,25
+    CONTROL         153,IDC_STATIC_Y,"Static",SS_BITMAP | SS_CENTERIMAGE,70,
+                    233,20,25
+    CONTROL         154,IDC_STATIC_Z,"Static",SS_BITMAP | SS_CENTERIMAGE,240,
+                    163,20,25
+    CONTROL         155,IDC_STATIC_A2,"Static",SS_BITMAP | SS_CENTERIMAGE,60,
+                    198,20,25
+    CONTROL         156,IDC_STATIC_B2,"Static",SS_BITMAP | SS_CENTERIMAGE,
+                    230,233,20,25
+    CONTROL         157,IDC_STATIC_C2,"Static",SS_BITMAP | SS_CENTERIMAGE,
+                    150,233,20,25
+    CONTROL         158,IDC_STATIC_D2,"Static",SS_BITMAP | SS_CENTERIMAGE,
+                    140,198,20,25
+    CONTROL         159,IDC_STATIC_E2,"Static",SS_BITMAP | SS_CENTERIMAGE,
+                    120,163,20,25
+    CONTROL         160,IDC_STATIC_F2,"Static",SS_BITMAP | SS_CENTERIMAGE,
+                    180,198,20,25
+    CONTROL         161,IDC_STATIC_G2,"Static",SS_BITMAP | SS_CENTERIMAGE,
+                    220,198,20,25
+    CONTROL         162,IDC_STATIC_H2,"Static",SS_BITMAP | SS_CENTERIMAGE,
+                    260,198,20,25
+    CONTROL         163,IDC_STATIC_I2,"Static",SS_BITMAP | SS_CENTERIMAGE,
+                    320,163,20,25
+    CONTROL         164,IDC_STATIC_J2,"Static",SS_BITMAP | SS_CENTERIMAGE,
+                    300,198,20,25
+    CONTROL         165,IDC_STATIC_K2,"Static",SS_BITMAP | SS_CENTERIMAGE,
+                    340,198,20,25
+    CONTROL         166,IDC_STATIC_L2,"Static",SS_BITMAP | SS_CENTERIMAGE,
+                    350,233,20,25
+    CONTROL         167,IDC_STATIC_M2,"Static",SS_BITMAP | SS_CENTERIMAGE,
+                    310,233,20,25
+    CONTROL         168,IDC_STATIC_N2,"Static",SS_BITMAP | SS_CENTERIMAGE,
+                    270,233,20,25
+    CONTROL         169,IDC_STATIC_O2,"Static",SS_BITMAP | SS_CENTERIMAGE,
+                    360,163,20,25
+    CONTROL         170,IDC_STATIC_P2,"Static",SS_BITMAP | SS_CENTERIMAGE,30,
+                    233,20,25
+    CONTROL         171,IDC_STATIC_Q2,"Static",SS_BITMAP | SS_CENTERIMAGE,40,
+                    163,20,25
+    CONTROL         172,IDC_STATIC_R2,"Static",SS_BITMAP | SS_CENTERIMAGE,
+                    160,163,20,25
+    CONTROL         173,IDC_STATIC_S2,"Static",SS_BITMAP | SS_CENTERIMAGE,
+                    100,198,20,25
+    CONTROL         174,IDC_STATIC_T2,"Static",SS_BITMAP | SS_CENTERIMAGE,
+                    200,163,20,25
+    CONTROL         180,IDC_STATIC_U2,"Static",SS_BITMAP | SS_CENTERIMAGE,
+                    280,163,20,25
+    CONTROL         175,IDC_STATIC_V2,"Static",SS_BITMAP | SS_CENTERIMAGE,
+                    190,233,20,25
+    CONTROL         176,IDC_STATIC_W2,"Static",SS_BITMAP | SS_CENTERIMAGE,80,
+                    163,20,25
+    CONTROL         177,IDC_STATIC_X2,"Static",SS_BITMAP | SS_CENTERIMAGE,
+                    110,233,20,25
+    CONTROL         178,IDC_STATIC_Y2,"Static",SS_BITMAP | SS_CENTERIMAGE,70,
+                    233,20,25
+    CONTROL         179,IDC_STATIC_Z2,"Static",SS_BITMAP | SS_CENTERIMAGE,
+                    240,163,20,25
+    LTEXT           "Input",IDC_STATIC_INPUT,7,75,17,8
+    LTEXT           "Output",IDC_STATIC_OUTPUT,7,100,22,8
+    EDITTEXT        IDC_EDIT_INPUT,40,75,400,25,ES_MULTILINE | WS_HSCROLL
+    EDITTEXT        IDC_EDIT_OUTPUT,40,100,400,25,ES_MULTILINE | 
+                    ES_AUTOHSCROLL | WS_HSCROLL
+    CONTROL         181,IDC_STATIC_MAIN,"Static",SS_BITMAP | SS_CENTERIMAGE,
+                    7,374,433,39
+    EDITTEXT        IDC_EDIT_ROT1,260,140,20,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ROT2,180,140,20,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ROT3,100,140,20,15,ES_AUTOHSCROLL
+    LTEXT           "Rotor1",IDC_STATIC_ROT1,229,140,22,8
+    LTEXT           "Rotor2",IDC_STATIC_ROT2,149,140,22,8
+    LTEXT           "Rotor3",IDC_STATIC_ROT3,69,140,22,8
+    EDITTEXT        IDC_EDIT_RSET,60,50,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PSET,60,100,380,14,ES_AUTOHSCROLL
+    LTEXT           "Choose 3 rotors (from 1-5)",IDC_STATIC_RSET,40,25,100,8
+    LTEXT           "Set plugboard (at most 10 pairs)",IDC_STATIC_PSET,40,75,
+                    100,8
+    PUSHBUTTON      "Apply",IDC_BUTTON_APPLY,310,140,50,15
+    PUSHBUTTON      "Paste",IDC_BUTTON_PASTE,390,25,50,25
+    EDITTEXT        IDC_EDIT_PASTE,40,25,350,25,ES_MULTILINE | WS_HSCROLL
+    LTEXT           "Paste",IDC_STATIC_PASTE,7,25,19,8
+    PUSHBUTTON      "Clear",IDC_BUTTON_CLEAR,390,125,50,15
+    LTEXT           "Type",IDC_STATIC_TYPE,7,50,17,8
+    EDITTEXT        IDC_EDIT_TYPE,40,50,400,25,ES_MULTILINE | WS_HSCROLL
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "Enigma MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "Enigma\0"
+            VALUE "LegalCopyright", "Copyright (C) 2019\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "Enigma.EXE\0"
+            VALUE "ProductName", "Enigma Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_ENIGMA_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 440
+        VERTGUIDE, 20
+        VERTGUIDE, 40
+        VERTGUIDE, 60
+        VERTGUIDE, 80
+        VERTGUIDE, 100
+        VERTGUIDE, 120
+        VERTGUIDE, 140
+        VERTGUIDE, 160
+        VERTGUIDE, 180
+        VERTGUIDE, 200
+        VERTGUIDE, 220
+        VERTGUIDE, 240
+        VERTGUIDE, 260
+        VERTGUIDE, 280
+        VERTGUIDE, 300
+        VERTGUIDE, 320
+        VERTGUIDE, 340
+        VERTGUIDE, 360
+        VERTGUIDE, 380
+        VERTGUIDE, 400
+        VERTGUIDE, 420
+        VERTGUIDE, 440
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 413
+        HORZGUIDE, 25
+        HORZGUIDE, 50
+        HORZGUIDE, 75
+        HORZGUIDE, 100
+        HORZGUIDE, 125
+        HORZGUIDE, 134
+        HORZGUIDE, 140
+        HORZGUIDE, 155
+        HORZGUIDE, 175
+        HORZGUIDE, 210
+        HORZGUIDE, 245
+        HORZGUIDE, 280
+        HORZGUIDE, 315
+        HORZGUIDE, 350
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP_A            BITMAP  DISCARDABLE     "res\\bitmap_a.bmp"
+IDB_BITMAP_C            BITMAP  DISCARDABLE     "res\\bitmap_c.bmp"
+IDB_BITMAP_B            BITMAP  DISCARDABLE     "res\\bitmap_b.bmp"
+IDB_BITMAP_D            BITMAP  DISCARDABLE     "res\\bitmap_d.bmp"
+IDB_BITMAP_E            BITMAP  DISCARDABLE     "res\\bitmap_e.bmp"
+IDB_BITMAP_F            BITMAP  DISCARDABLE     "res\\bitmap_f.bmp"
+IDB_BITMAP_G            BITMAP  DISCARDABLE     "res\\bitmap_g.bmp"
+IDB_BITMAP_H            BITMAP  DISCARDABLE     "res\\bitmap_h.bmp"
+IDB_BITMAP_I            BITMAP  DISCARDABLE     "res\\bitmap_i.bmp"
+IDB_BITMAP_J            BITMAP  DISCARDABLE     "res\\bitmap_j.bmp"
+IDB_BITMAP_K            BITMAP  DISCARDABLE     "res\\bitmap_k.bmp"
+IDB_BITMAP_L            BITMAP  DISCARDABLE     "res\\bitmap_l.bmp"
+IDB_BITMAP_M            BITMAP  DISCARDABLE     "res\\bitmap_m.bmp"
+IDB_BITMAP_N            BITMAP  DISCARDABLE     "res\\bitmap_n.bmp"
+IDB_BITMAP_O            BITMAP  DISCARDABLE     "res\\bitmap_o.bmp"
+IDB_BITMAP_P            BITMAP  DISCARDABLE     "res\\bitmap_p.bmp"
+IDB_BITMAP_Q            BITMAP  DISCARDABLE     "res\\bitmap_q.bmp"
+IDB_BITMAP_R            BITMAP  DISCARDABLE     "res\\bitmap_r.bmp"
+IDB_BITMAP_S            BITMAP  DISCARDABLE     "res\\bitmap_s.bmp"
+IDB_BITMAP_V            BITMAP  DISCARDABLE     "res\\bitmap_v.bmp"
+IDB_BITMAP_W            BITMAP  DISCARDABLE     "res\\bitmap_w.bmp"
+IDB_BITMAP_X            BITMAP  DISCARDABLE     "res\\bitmap_x.bmp"
+IDB_BITMAP_Y            BITMAP  DISCARDABLE     "res\\bitmap_y.bmp"
+IDB_BITMAP_Z            BITMAP  DISCARDABLE     "res\\bitmap_z.bmp"
+IDB_BITMAP_T            BITMAP  DISCARDABLE     "res\\bitmap_t.bmp"
+IDB_BITMAP_A1           BITMAP  DISCARDABLE     "res\\bmp00001.bmp"
+IDB_BITMAP_B1           BITMAP  DISCARDABLE     "res\\bmp00002.bmp"
+IDB_BITMAP_C1           BITMAP  DISCARDABLE     "res\\bmp00003.bmp"
+IDB_BITMAP_D1           BITMAP  DISCARDABLE     "res\\bmp00004.bmp"
+IDB_BITMAP_E1           BITMAP  DISCARDABLE     "res\\bmp00005.bmp"
+IDB_BITMAP_F1           BITMAP  DISCARDABLE     "res\\bmp00006.bmp"
+IDB_BITMAP_G1           BITMAP  DISCARDABLE     "res\\bmp00007.bmp"
+IDB_BITMAP_H1           BITMAP  DISCARDABLE     "res\\bmp00008.bmp"
+IDB_BITMAP_I1           BITMAP  DISCARDABLE     "res\\bmp00009.bmp"
+IDB_BITMAP_J1           BITMAP  DISCARDABLE     "res\\bmp00010.bmp"
+IDB_BITMAP_K1           BITMAP  DISCARDABLE     "res\\bmp00011.bmp"
+IDB_BITMAP_L1           BITMAP  DISCARDABLE     "res\\bmp00012.bmp"
+IDB_BITMAP_M1           BITMAP  DISCARDABLE     "res\\bmp00013.bmp"
+IDB_BITMAP_N1           BITMAP  DISCARDABLE     "res\\bmp00014.bmp"
+IDB_BITMAP_O1           BITMAP  DISCARDABLE     "res\\bmp00015.bmp"
+IDB_BITMAP_P1           BITMAP  DISCARDABLE     "res\\bmp00016.bmp"
+IDB_BITMAP_Q1           BITMAP  DISCARDABLE     "res\\bmp00017.bmp"
+IDB_BITMAP_R1           BITMAP  DISCARDABLE     "res\\bmp00018.bmp"
+IDB_BITMAP_S1           BITMAP  DISCARDABLE     "res\\bmp00019.bmp"
+IDB_BITMAP_T1           BITMAP  DISCARDABLE     "res\\bmp00020.bmp"
+IDB_BITMAP_V1           BITMAP  DISCARDABLE     "res\\bmp00021.bmp"
+IDB_BITMAP_W1           BITMAP  DISCARDABLE     "res\\bmp00022.bmp"
+IDB_BITMAP_X1           BITMAP  DISCARDABLE     "res\\bmp00023.bmp"
+IDB_BITMAP_Y1           BITMAP  DISCARDABLE     "res\\bmp00024.bmp"
+IDB_BITMAP_Z1           BITMAP  DISCARDABLE     "res\\bmp00025.bmp"
+IDB_BITMAP_U            BITMAP  DISCARDABLE     "res\\bitmap_u.bmp"
+IDB_BITMAP_U1           BITMAP  DISCARDABLE     "res\\bmp00026.bmp"
+IDB_BITMAP_MAIN         BITMAP  DISCARDABLE     "res\\bitmap1.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About Enigma..."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\Enigma.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
