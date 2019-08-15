@@ -1,2 +1,2 @@
-"# Enigma" 
-"Edited by VC 6.0" 
+# Enigma
+Edited by VC 6.0
